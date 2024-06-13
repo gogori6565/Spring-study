@@ -1,0 +1,23 @@
+package com.example.studyproject.controller;
+
+import com.example.studyproject.dto.ArticleForm;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+@Controller
+public class ArticleController {
+
+    //폼 작성 view
+    @GetMapping("/articles/new")
+    public String newArticleForm(){
+        return "articles/new";
+    }
+
+    //폼 데이터 DTO 객체에 받기
+    @PostMapping("/articles/create")
+    public String createArticle(ArticleForm form) {
+        System.out.println(form.toString());
+        return "";
+    }
+}
