@@ -21,6 +21,6 @@
 
   - 폼 데이터를 주고 DTO로 받는 방법을 알아보자
     
-- [`#8. 데이터 생성 with JPA - Entity와 Repository`](https://velog.io/@gogori6565/1)
+- [`#8. 데이터 생성 with JPA - Entity와 Repository`](https://velog.io/@gogori6565/Spring-Boot-8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%83%9D%EC%84%B1-with-JPA)
 
   - DTO를 Entity로 변환 후, Repository를 이용해 Entity를 DB에 저장하자
