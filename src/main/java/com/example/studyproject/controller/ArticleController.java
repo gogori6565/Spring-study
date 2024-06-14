@@ -1,6 +1,9 @@
 package com.example.studyproject.controller;
 
 import com.example.studyproject.dto.ArticleForm;
+import com.example.studyproject.entity.Article;
+import com.example.studyproject.repository.ArticleRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -8,16 +11,28 @@ import org.springframework.web.bind.annotation.PostMapping;
 @Controller
 public class ArticleController {
 
+    @Autowired //(DI-의존성 주입)스프링 부트가 미리 생성해놓은 객체를 가져다가 자동으로 연결!
+    private ArticleRepository articleRepository;
+
     //폼 작성 view
     @GetMapping("/articles/new")
     public String newArticleForm(){
         return "articles/new";
     }
 
-    //폼 데이터 DTO 객체에 받기
+    //폼 데이터 DTO로 받고 -> Entity 변환 -> Repository 이용해 DB 저장
     @PostMapping("/articles/create")
     public String createArticle(ArticleForm form) {
         System.out.println(form.toString());
+
+        //1. Dto를 Entity로 변환!
+        Article article = form.toEntity();
+        System.out.println(article.toString());
+
+        //2. Repository에게 Entity를 DB안에 저장하게 함!
+        Article saved = articleRepository.save(article); //.save() - CrudRepository에 정의되어 있는 기능 사용
+        System.out.println(saved.toString());
+
         return "";
     }
 }
