@@ -21,3 +21,5 @@
 - [`#11. 데이터 조회 with JPA`](https://velog.io/@gogori6565/Spring-Boot-11-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A1%B0%ED%9A%8C-with-JPA) : DB 내 데이터를 (단일)조회하여 뷰 페이지에 보여주자
 
 - [`#12. 데이터 목록 조회`](https://velog.io/@gogori6565/Spring-Boot-12-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A9%EB%A1%9D-%EC%A1%B0%ED%9A%8C) : DB 내 데이터 목록을 조회하여 뷰 페이지에 보여주자
+
+- [`#13. 링크와 리다이렉트`](https://velog.io/@gogori6565/Spring-Boot-13.-%EB%A7%81%ED%81%AC%EC%99%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8) : 링크와 리다이렉트를 사용해, 페이지 간 이동을 연결하자
