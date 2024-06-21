@@ -19,3 +19,5 @@
 - [`#10. 롬복과 리팩터링`](https://velog.io/@gogori6565/Spring-Boot-10-%EB%A1%AC%EB%B3%B5%EA%B3%BC-%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81) : 롬복을 통해 코드를 리팩터링 하자
 
 - [`#11. 데이터 조회 with JPA`](https://velog.io/@gogori6565/Spring-Boot-11-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A1%B0%ED%9A%8C-with-JPA) : DB 내 데이터를 (단일)조회하여 뷰 페이지에 보여주자
+
+- [`#12. 데이터 목록 조회`](https://velog.io/@gogori6565/Spring-Boot-12-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A9%EB%A1%9D-%EC%A1%B0%ED%9A%8C) : DB 내 데이터 목록을 조회하여 뷰 페이지에 보여주자
