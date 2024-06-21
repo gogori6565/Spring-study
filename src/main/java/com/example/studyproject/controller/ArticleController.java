@@ -41,7 +41,7 @@ public class ArticleController {
         Article saved = articleRepository.save(article); //.save() - CrudRepository에 정의되어 있는 기능 사용
         log.info(saved.toString());
 
-        return "";
+        return "redirect:/articles/" + saved.getId();
     }
 
     @GetMapping("/articles/{id}")
