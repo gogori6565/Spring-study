@@ -23,3 +23,5 @@
 - [`#12. 데이터 목록 조회`](https://velog.io/@gogori6565/Spring-Boot-12-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AA%A9%EB%A1%9D-%EC%A1%B0%ED%9A%8C) : DB 내 데이터 목록을 조회하여 뷰 페이지에 보여주자
 
 - [`#13. 링크와 리다이렉트`](https://velog.io/@gogori6565/Spring-Boot-13.-%EB%A7%81%ED%81%AC%EC%99%80-%EB%A6%AC%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8) : 링크와 리다이렉트를 사용해, 페이지 간 이동을 연결하자
+
+- [`#14. 수정 폼 만들기 & #15. 데이터 수정하기`](https://velog.io/@gogori6565/Spring-Boot-14.-%EC%88%98%EC%A0%95-%ED%8F%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0-15.-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0) : 데이터 수정 폼을 만들어 데이터를 수정하자 (+더미데이터 만들기)
