@@ -27,3 +27,5 @@
 - [`#14. 수정 폼 만들기 & #15. 데이터 수정하기`](https://velog.io/@gogori6565/Spring-Boot-14.-%EC%88%98%EC%A0%95-%ED%8F%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0-15.-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0) : 데이터 수정 폼을 만들어 데이터를 수정하자 (+더미데이터 만들기)
   
 - [`#16. 데이터 삭제하기`](https://velog.io/@gogori6565/Spring-Boot-16.-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0) : 데이터를 삭제하고 RedirectAttributes를 사용해 redirect 한 페이지에서 삭제 메시지를 띄워보자
+
+- [`#17. CRUD와 SQL 쿼리`](https://velog.io/@gogori6565/Spring-Boot-17.-CRUD%EC%99%80-SQL-%EC%BF%BC%EB%A6%AC) : 데이터 CRUD 과정의 SQL 쿼리를 알아보자
