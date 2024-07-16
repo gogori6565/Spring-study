@@ -29,3 +29,5 @@
 - [`#16. 데이터 삭제하기`](https://velog.io/@gogori6565/Spring-Boot-16.-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0) : 데이터를 삭제하고 RedirectAttributes를 사용해 redirect 한 페이지에서 삭제 메시지를 띄워보자
 
 - [`#17. CRUD와 SQL 쿼리`](https://velog.io/@gogori6565/Spring-Boot-17.-CRUD%EC%99%80-SQL-%EC%BF%BC%EB%A6%AC) : 데이터 CRUD 과정의 SQL 쿼리를 알아보자
+
+- [`#18. RestAPI와 JSON`](https://velog.io/@gogori6565/Spring-Boot-18.-RestAPI-JSON) : JSON Placeholder 사이트를 활용해 RestAPI의 동작 흐름을 알아보자 (+JSON)
