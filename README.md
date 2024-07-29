@@ -31,3 +31,5 @@
 - [`#17. CRUD와 SQL 쿼리`](https://velog.io/@gogori6565/Spring-Boot-17.-CRUD%EC%99%80-SQL-%EC%BF%BC%EB%A6%AC) : 데이터 CRUD 과정의 SQL 쿼리를 알아보자
 
 - [`#18. RestAPI와 JSON`](https://velog.io/@gogori6565/Spring-Boot-18.-RestAPI-JSON) : JSON Placeholder 사이트를 활용해 RestAPI의 동작 흐름을 알아보자 (+JSON)
+
+- [`#19. HTTP와 RestController`](https://velog.io/@gogori6565/Spring-Boot-19.-HTTP%EC%99%80-RestController) : RestController를 만들어 JSON 형식의 데이터를 주고받는 게시글 CRUD Rest API를 구현해보자
