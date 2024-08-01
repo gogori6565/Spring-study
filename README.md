@@ -35,3 +35,5 @@
 - [`#19. HTTP와 RestController`](https://velog.io/@gogori6565/Spring-Boot-19.-HTTP%EC%99%80-RestController) : RestController를 만들어 JSON 형식의 데이터를 주고받는 게시글 CRUD Rest API를 구현해보자
 
 - [`#20. 서비스 계층과 트랜잭션`](https://velog.io/@gogori6565/Spring-Boot-20.-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B3%84%EC%B8%B5%EA%B3%BC-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98) : Service 계층을 추가해 Controller 에 때려 박았던 역할을 분배하자 (+트랜잭션과 롤백 맛보기)
+
+- [`#21. 테스트 작성하기`](https://velog.io/@gogori6565/Spring-Boot-21.-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9E%91%EC%84%B1%ED%95%98%EA%B8%B0) : 서비스를 검증하는 테스트를 진행해보자
