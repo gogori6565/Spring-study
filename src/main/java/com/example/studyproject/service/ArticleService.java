@@ -41,7 +41,7 @@ public class ArticleService {
         log.info("id: {}, article: {}", id, article.toString());
         Article target = articleRepository.findById(id).orElse(null);
 
-        if(target == null || id != article.getId()){
+        if(target == null || id != article.getId() || (article.getTitle() == null && article.getContent() == null)){
             log.info("잘못된 요청! id: {}, article: {}", id, article.toString());
             return null;
         }
