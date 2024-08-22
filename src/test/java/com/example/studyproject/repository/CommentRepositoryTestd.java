@@ -94,5 +94,28 @@ class CommentRepositoryTestd {
             //검증
             assertEquals(expected.toString(), comments.toString());
         }
+        /* Case 5 : "i"가 포함된 닉네임의 모든 댓글 조회 */
+        {
+            // 입력 데이터를 준비
+            String nickname = "i";
+            Article article4 = new Article(4L, "당신의 인생 영화는?", "댓글 ㄱ");
+            Article article5 = new Article(5L, "당신의 소울 푸드는?", "댓글 ㄱㄱ");
+            Article article6 = new Article(6L, "당신의 취미는?", "댓글 ㄱㄱㄱ");
+            Comment a = new Comment(2L, article4, "Kim", "아이 엠 샘");
+            Comment b = new Comment(5L, article5, "Kim", "샤브샤브");
+            Comment c = new Comment(8L, article6, "Kim", "유튜브");
+            Comment d = new Comment(3L, article4, "Choi", "쇼생크의 탈출");
+            Comment e = new Comment(6L, article5, "Choi", "초밥");
+            Comment f = new Comment(9L, article6, "Choi", "독서");
+
+            // 실제 수행
+            List<Comment> comments = commentRepository.findByNickname(nickname);
+
+            // 예상하기
+            List<Comment> expected = Arrays.asList(a, d, b, e, c, f);
+
+            // 검증
+            assertEquals(expected.toString(), comments.toString(), "닉네임에 i를 포함한 닉네임의 모든 댓글을 출력");
+        }
     }
 }

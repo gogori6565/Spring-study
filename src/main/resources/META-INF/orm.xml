@@ -14,7 +14,9 @@
                 FROM
                     comment
                 WHERE
-                    nickname = :nickname
+                    nickname
+                LIKE
+                    concat('%', :nickname, '%')
             ]]>
         </query>
     </named-native-query>
